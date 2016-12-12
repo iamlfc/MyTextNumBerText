@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.lfc.mytextnumbertext.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+
+    <com.example.lfc.mytextnumbertext.widget.NumberAnimTextView
+        android:id="@+id/tv_num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff1065"
+        android:textSize="18sp"/>
+
+    <com.example.lfc.mytextnumbertext.widget.NumberAnimTextView
+        android:id="@+id/tv_num2"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff1065"
+        android:textSize="18sp"/>
+
+    <com.example.lfc.mytextnumbertext.widget.NumberAnimTextView
+        android:id="@+id/tv_num3"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff1065"
+        android:textSize="18sp"/>
+
+    <com.example.lfc.mytextnumbertext.widget.NumberAnimTextView
+        android:id="@+id/tv_num4"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff1065"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_click"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="开始动画"/>
+</LinearLayout>
