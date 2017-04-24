@@ -93,6 +93,7 @@ public class MyGitVIew extends AppCompatActivity {
             case R.id.btn_my_zoomscroll:
                 startActivity(new Intent(bContext, MyTestZoomHead.class));
 
+
                 break;
             case R.id.btn2:
                 break;

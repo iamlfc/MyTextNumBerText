@@ -32,6 +32,7 @@ public class MyTestZoomHead extends BaseActivity {
             @Override
             public void onClick(View v) {
                 CommonUtil.showToask(MyTestZoomHead.this, "不能点呦！");
+
             }
         });
     }

@@ -26,6 +26,7 @@ public class HeadZoomScrollView extends ScrollView {
         super(context, attrs, defStyleAttr);
     }
 
+
     //    用于记录下拉位置
     private float y = 0f;
     //    zoomView原本的宽高
